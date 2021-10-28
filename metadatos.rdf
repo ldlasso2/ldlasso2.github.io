@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:admin="http://webns.net/mvcb/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+<rdf:Description rdf:about="https://ldlasso2.github.io">
+
+  <foaf:Person rdf:about = "http://www.w3.org/People/EM/contact#me">
+    <rdf:value>Laura Lasso</rdf:value>
+    <foaf:name>Laura Lasso</foaf:name>
+    <foaf:phone rdf:resource="tel:+57-318-365-8379"/>
+    <foaf:mbox rdf:resource="mailto:laurad.lasso.a@gmail.com"/>
+    <foaf:nick>ldla12</foaf:nick>
+  </foaf:Person>
+
+	<dc:title>CV Laura Lasso</dc:title>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>CV</rdf:li>
+			<rdf:li>Resume</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>en</dc:language>
+	<dc:creator dc:source="https://www.linkedin.com/in/ldla12/" rdfs:Literal="Laura Lasso " />
+	<dc:relation dc:source="https://stark-refuge-51660.herokuapp.com" rdfs:Literal="Gestion de ventas y productos" />
+	<dc:relation dc:source="https://www.researchgate.net/publication/327795610_Movement_Identification_in_EMG_Signals_Using_Machine_Learning_A_Comparative_Study" rdfs:Literal="Articulo " />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>
